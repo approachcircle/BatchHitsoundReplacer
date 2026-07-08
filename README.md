@@ -8,7 +8,11 @@ The program will first ask for the skin you'd like to change and make a copy of 
 Cause making skins with a custom hitsound for every object is funny
 
 ## How do i run it?
-A .jar file is provided in the releases section [here](https://github.com/approachcircle/BatchHitsoundReplacer/releases). You must install Java 21 to run the utility. Alternatively, you can compile the project from source using Gradle.
+Since this is not a GUI application, you must run the .jar file in the terminal. Do this by navigating to the directory that contains the .jar file. Then, run this command:
+```
+java -jar hitsound-renamer-1.0-all.jar
+```
+Download the .jar file from [here](https://github.com/approachcircle/BatchHitsoundReplacer/releases). You must install Java 21 to run the utility. Alternatively, you can compile the project from source using Gradle.
 
 ## It doesn't work
 If something is broken or not working, open an issue in the "Issues" tab and describe the problem. Open-source contributions are appreciated through pull requests.
