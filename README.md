@@ -9,3 +9,6 @@ Cause making skins with a custom hitsound for every object is funny
 
 ## How do i run it?
 A .jar file is provided in the releases section [here](https://github.com/approachcircle/BatchHitsoundReplacer/releases). You must install Java 21 to run the utility. Alternatively, you can compile the project from source using Gradle.
+
+## It doesn't work
+If something is broken or not working, open an issue in the "Issues" tab and describe the problem. Open-source contributions are appreciated through pull requests.
