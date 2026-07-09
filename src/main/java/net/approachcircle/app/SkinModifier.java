@@ -107,10 +107,19 @@ public class SkinModifier {
         for (String hitsound : Utils.hitsoundNames) {
             for (String extension : Utils.supportedExtensions) {
                 String hitsoundFileName = String.format("%s-%s.%s", set, hitsound, extension);
-                File hitsoundFile = new File(hitsoundFileName);
+                // sometimes there's a second hitsound, don't think it's actually used but we'll make sure to clear it anyway
+                String hitsoundFileName2 = String.format("%s-%s2.%s", set, hitsound, extension);
+                File hitsoundFile = new File(skinCopyFolder, hitsoundFileName);
+                File hitsoundFile2 = new File(skinCopyFolder, hitsoundFileName2);
                 if (hitsoundFile.exists()) {
                     if (!hitsoundFile.delete()) {
                         Logger.error(String.format("failed to delete hitsound file %s", hitsoundFileName));
+                        return false;
+                    }
+                }
+                if (hitsoundFile2.exists()) {
+                    if (!hitsoundFile2.delete()) {
+                        Logger.error(String.format("failed to delete hitsound file %s", hitsoundFileName2));
                         return false;
                     }
                 }

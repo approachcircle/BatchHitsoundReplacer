@@ -3,6 +3,7 @@ package net.approachcircle.app;
 import javax.swing.*;
 import java.awt.*;
 import java.io.Console;
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
@@ -13,7 +14,7 @@ public class Main {
             return;
         }
         Console console = System.console();
-        if (console == null && !GraphicsEnvironment.isHeadless()){
+        if (console == null && !GraphicsEnvironment.isHeadless() && !Arrays.stream(args).toList().contains("--debug")) {
             JOptionPane.showMessageDialog(null,
                     "Don't just double click this file, run it from the terminal! Refer to the GitHub page for more info.",
                     "Silly billy",
