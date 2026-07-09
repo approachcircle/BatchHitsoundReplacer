@@ -10,7 +10,7 @@ Cause making skins with a custom hitsound for every object is funny
 ## How do i run it?
 Since this is not a GUI application, you must run the .jar file in the terminal. An easy way to do this is to go to the folder containing the program, hold shift, right click, then click "Open in terminal" (windows users). Then, run this command:
 ```
-java -jar hitsound-renamer-1.0-all.jar
+java -jar hitsound-renamer-1.0.1-all.jar
 ```
 Download the .jar file from [here](https://github.com/approachcircle/BatchHitsoundReplacer/releases/latest). You must install Java 21 to run the utility. Alternatively, you can compile the project from source using Gradle.
 
