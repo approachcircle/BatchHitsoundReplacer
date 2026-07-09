@@ -8,7 +8,7 @@ The program will first ask for the skin you'd like to change and make a copy of 
 Cause making skins with a custom hitsound for every object is funny
 
 ## How do i run it?
-Since this is not a GUI application, you must run the .jar file in the terminal. An easy way to do this is to go to the folder containing the program, hold shift, right click then click "Open in terminal" (windows users). Then, run this command:
+Since this is not a GUI application, you must run the .jar file in the terminal. An easy way to do this is to go to the folder containing the program, hold shift, right click, then click "Open in terminal" (windows users). Then, run this command:
 ```
 java -jar hitsound-renamer-1.0-all.jar
 ```
