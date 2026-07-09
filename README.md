@@ -12,7 +12,7 @@ Since this is not a GUI application, you must run the .jar file in the terminal.
 ```
 java -jar hitsound-renamer-1.0-all.jar
 ```
-Download the .jar file from [here](https://github.com/approachcircle/BatchHitsoundReplacer/releases). You must install Java 21 to run the utility. Alternatively, you can compile the project from source using Gradle.
+Download the .jar file from [here](https://github.com/approachcircle/BatchHitsoundReplacer/releases/latest). You must install Java 21 to run the utility. Alternatively, you can compile the project from source using Gradle.
 
 ## It doesn't work
 If something is broken or not working, open an issue in the "Issues" tab and describe the problem. Open-source contributions are appreciated through pull requests.
